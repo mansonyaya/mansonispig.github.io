@@ -2,10 +2,14 @@
 *, *:before, *:after {
     box-sizing: border-box;
   }
+  body * {
+    text-align: center;
+    
+}
   
   .dark-background {
     background: rgb(110, 109, 109);
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -15,6 +19,7 @@
     border-style: solid;
     padding: 15px;
     font-size: 16px;
+    display: inline-block; */
   }
   .line-background{
     background: darksalmon;
@@ -37,5 +42,43 @@
     display: inline-block;
     text-align: center;
     line-height: 36px;
+    float: left;
+    border-color: rgb(110, 109, 109);
+    color: #ddd;
+  }
+  .btn:last-child {
+    border-left-width: 1px;
+  }
+  .btn:hover {
+    background: #eee;
+    color: #333;
+  }
+  .paging{
+    display: inline-block;
     float: right;
   }
+  .first-title{
+    display: inline-block;
+  }
+  .second-title{
+    background-image: url("../lab-6/index-hero-bg.jpg");
+    font-size: 50px;
+  }
+  #try{
+    background: rgb(80, 134, 151);
+    color: white; 
+    text-decoration: none;
+    display: inline-block; 
+  }
+  table, th, td {
+    border: 1px solid aquamarine;
+    background-color:aquamarine;
+    width: 1140px; 
+    height: 300px;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+ }
+ .btn2{
+
+ }
