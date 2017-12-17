@@ -103,5 +103,17 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
  }
+ .buttons{
+    background-image: url("../lab-6/index-hero-bg.jpg"); 
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+    height: 200px;
+    
+ }
+ input{
+    width:500px;
+    display: inline-block; 
+ }
 
 
