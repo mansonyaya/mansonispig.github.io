@@ -74,9 +74,9 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
-  .table, td {
-    border: 1px solid aquamarine;
-    background-color:aquamarine;
+  .table, td, tr  {
+    border: 1px solid rgb(249, 249, 253);
+    background-color:rgb(249, 249, 253);
     width: 1140px; 
     height: 50px;
     text-align: center;
@@ -85,8 +85,8 @@
     
  }
   .table, th {
-    border: 1px solid aquamarine;
-    background-color:aquamarine;
+    border: 1px solid rgb(249, 249, 253);
+    background-color:rgb(249, 249, 253);
     width: 1140px; 
     height: 50px;
     text-align: center;
