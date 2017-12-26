@@ -7,7 +7,7 @@
     
   }
   
-  .dark-background {
+  .head-background {
     background: rgb(110, 109, 109);
     position: fixed;
     top: 0;
@@ -21,17 +21,67 @@
     font-size: 16px;
     display: inline-block;
   }
+
+  .dark-background {
+    background: darksalmon;
+  }
   .line-background{
     background: darksalmon;
   }
   
   .site-container {
     max-width: 1140px;
-  
+ 
     /* 水平置中這個元素 */
     margin-left: auto;
     margin-right: auto;
   }
+
+  .site-container02{
+    height: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 40px;
+    text-align: center;
+    border-bottom: 1px solid #dadfe1;
+    }
+
+  .basic{
+    display: inline-block;
+    border: 1px solid #dadfe1;
+    border-radius: 5px;
+    height: 460px;
+    width: 32%;
+  }
+
+  .premium{
+    display: inline-block;
+    border: 1px solid #dadfe1;
+    border-radius: 5px;
+    height: 520px;
+    width: 32%;
+    padding-top: 30px;
+    background-color: #33678c
+  }
+
+  .advance  {
+    display: inline-block;
+    border: 1px solid #dadfe1;
+    border-radius: 5px;
+    height: 460px;
+    width: 370px;
+  }
+
+  .first-title{
+    font-size: 1.2cm;
+  }
+
+  .price{
+    font-size: 1cm;
+  }
+
   .btn{
     text-decoration: none;
     color: #337ab7;
@@ -64,25 +114,19 @@
     background-image: url("../lab-6/index-hero-bg.jpg");
     font-size: 50px;
   }
-  #try{
+  .try{
     background: rgb(116, 224, 197);
     color: white; 
     text-decoration: none;
     display: inline-block; 
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 15px;
+    border-radius: 5px;
   }
-  .table, th, td, tr  {
-    border: 1px solid rgb(249, 249, 253);
-    background-color:rgb(249, 249, 253);
-    width: 1140px; 
-    height: 50px;
-    text-align: center;
-    margin-left:auto; 
-    margin-right:auto;
-  }
+  
  .btn2{
   background: rgb(68, 78, 228);
   color: white; 
