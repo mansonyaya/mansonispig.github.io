@@ -209,6 +209,7 @@
   .faq{
     text-align: center;
     font-size: 36px;
+    height: 30%;
     width: 100%;
     color: #666666;
     font-weight: normal;
@@ -223,10 +224,15 @@
     display: inline-block;
     border: 1px solid #dadfe1;
     border-radius: 5px;
-    height: 35%;
+    height: 210px;
     width: 45%;
     font-size: 27px;
-    border-color: rgb(245, 245, 245);  
+    border-color: rgb(245, 245, 245);
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0px;
+    float: left;
+    text-align: left; 
   }
   .faq3{
     font-size: 14px;
