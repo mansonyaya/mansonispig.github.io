@@ -6,6 +6,9 @@
     text-align: center;
     
   }
+  div{
+    display: block;
+  }
   
   .head-background {
     background: rgb(110, 109, 109);
@@ -23,10 +26,11 @@
   }
 
   .dark-background {
-    background: darksalmon;
+    background: #dadfe1;
+    
   }
   .line-background{
-    background: darksalmon;
+    background: #dadfe1;
   }
   
   .site-container {
@@ -147,6 +151,95 @@
  input{
     width:500px;
     display: inline-block; 
+  }
+  .site-container03{
+    height: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 40px;
+    text-align: center;
+    border-bottom: 1px solid #dadfe1;
+  }
+  .allinclude{
+    text-align: center;
+    font-size: 36px;
+    width: 100%;
+    color: #666666;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .include1{
+    display: inline-block;
+    width: 35%;
+    height: 35%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+  }
+  .include2{
+    height: 14px;
+  }
+  
+  .include3{
+    display: inline-block;
+    border: 1px solid #dadfe1;
+    border-radius: 5px;
+    height: 33%;
+    width: 32%;
+  }
+  .site-container04{
+    height: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 40px;
+    text-align: center;
+    border-bottom: 1px solid #dadfe1;
+  }
+  .faq{
+    text-align: center;
+    font-size: 36px;
+    width: 100%;
+    color: #666666;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .faq2{
+    display: inline-block;
+    border: 1px solid #dadfe1;
+    border-radius: 5px;
+    height: 35%;
+    width: 45%;
+    font-size: 27px;
+    border-color: rgb(245, 245, 245);  
+  }
+  .faq3{
+    font-size: 14px;
+  }
+  .site-container05{
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+  }
+  .open{
+    padding-top: 50px;
   }
 
 
